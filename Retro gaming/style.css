@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+body {
+	background-image:url(slike/body.jpg);
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 0;
+	padding: 0;
+	color: #333333;
+	background-attachment:fixed;
+		}
+		
+h1, h2, h3, h4, h5, h6 {
+	color: #000000;
+						}
+
+
+a:link, a:visited {text-decoration:none;
+					color:#ECECEC;
+	
+	}
+		
+#wrapper {width:960px;
+			margin:0 auto;
+			padding:0;	
+			background-color:#B9B9B9;
+			border: 2px solid #333;
+			overflow:hidden;}
+			
+#wrapper.side {
+				background-image:url(slike/side_wrapper.jpg);
+				background-repeat:repeat-y;
+				background-position:right top;
+				
+	}		
+			
+
+
+header .zaglavlje { height:20px;
+					background:#1B1C1C;
+					display:block;
+					}
+					
+header .heder {background:url(slike/header.png);
+				height:450px;}
+				
+header .hederOstale	{background:url(slike/headerOstalo.png);							
+					background-repeat:no-repeat;
+					border-bottom: solid 20px #1B1C1C;
+					
+	}
+	
+header .hederOstale .logomargine {margin-left:40px;
+								margin-bottom:10px;
+								 opacity: 0.6;
+													
+	}	
+
+header .hederOstale .logomargine:hover { opacity:1;
+									}
+
+header#index {	
+				margin:5px 5px;
+				overflow:hidden;
+				margin-bottom:10px;
+	
+	}
+	
+header#index a{	display:block;
+				
+				
+	
+	
+	}
+header#index a img{  
+					float:left;
+					border: solid 5px transparent;}
+					
+header#index a img:hover {background:#21FF45;
+							border-color:#FBEE02;	
+							}			
+					
+header#index a img#retro { border:5px solid #2FFF51;}					
+				
+				
+main {float:left;
+		width:600px;
+		padding:20px;
+		background:#CECECE;}
+#textarea {width:270px;
+			height:150px;
+			margin-left:60px;}
+			
+.pitanje {width:400px;
+			margin:0 auto;
+			background:#666;
+			border:3px solid #FFF;
+			}	
+.pitanje h3 {color:#CCC;
+			margin-left:130px;
+	}	
+		
+aside {width:300px;
+		padding:10px;
+		float:right;
+		}	
+aside.main {background-color:#666;}
+
+aside.main h3 {color:#CCC;}
+			
+aside .joystick {margin-left:66px;}	
+	
+aside h3 {text-align:center;}	
+
+aside #form1 {border: 3px solid white;
+				padding:10px;
+				margin-top:30px;}
+
+
+aside #form2 {border: 3px solid white;
+				padding:10px;
+				margin-top:30px;
+				}
+aside #form2 #text,#password {margin-left:60px;}
+
+aside #form2 #username {margin-left:60px;}
+
+aside .widget {border: 3px solid white;
+				padding:10px;
+				margin-top:30px;
+				}
+.btn{border: 2px solid white;
+				padding:10px;
+				width:150px;
+				height:40px;}
+				
+.widget{border: 3px solid white;
+				padding:10px;
+				margin-top:30px;}				
+		
+#mail {width:270px;
+		margin-left:60px;}
+		
+#ime {width:270px;
+		margin-left:60px;}	
+	
+#prezime {width:270px;
+		margin-left:60px;}
+		
+#username {width:270px;
+		margin-left:60px;}
+		
+#password {width:270px;
+	margin-left: 60px;
+}	
+#username1 {
+		margin-left:60px;}
+	
+#password1 {
+	margin-left: 60px;
+}	
+#submit {background:#CCC;
+			color:#333;
+			padding:5px;
+			border:#333333 2px solid;
+			margin-left:100px;}
+
+#reset 		{background:#CCC;
+			color:#333;
+			padding:5px;
+			border:#333333 2px solid;
+			margin-left:100px;}
+			
+#textfield {width:270px;
+			margin-left:60px;}
+
+
+table {
+	width: 600px;
+	height: 600px;
+}	
+table.strana	{ width:280px;
+	
+	}
+	
+table th,td:hover {background:#999;}
+
+			
+footer{height:100px;
+		clear:both;
+		padding:10px 20px;
+		background:#333;}
+		
+footer .facebook {
+	margin-left:250px;
+	opacity: 0.6;
+	margin-top:10px;}	
+
+footer .youtube {opacity: 0.6;
+				margin-top:10px;}
+	
+footer .facebook:hover {opacity:1;}
+					
+footer .youtube:hover{opacity:1;}
